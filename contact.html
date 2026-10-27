@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NEXTAG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html">Compare</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="location.html">Location</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Let's <em>Talk.</em></h1>
+        <p>Have a question or suggestion? Send us a message.</p>
+    </section>
+
+    <section class="section contact-layout">
+        <div>
+            <h2>Contact <em>Details</em></h2>
+            <p>These are example details for the student project.</p>
+            <p><strong>Email:</strong>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+            </p>
+            <p><strong>Phone:</strong>
+                <a href="tel:+920000000000">+92 000 0000000</a>
+            </p>
+            <p><strong>Address:</strong> Add your actual shop address.</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option>Product Inquiry</option>
+                <option>General Question</option>
+                <option>Website Feedback</option>
+                <option>Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Write your message..." required></textarea>
+
+            <button class="btn" type="submit">Send Message ↗</button>
+            <p id="contact-feedback" class="form-message" aria-live="polite"></p>
+            <small>This demo form does not send messages to a server.</small>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="location.html">Location</a>
+    </div>
+    <small>© <span class="current-year"></span> NEXTAG</small>
+    <p>Mahad</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | NEXTAG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="products.html">Products</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html">Compare</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-heading">
+        <p class="eyebrow">OUR COLLECTION</p>
+        <h1>Find Your <em>Favorite.</em></h1>
+        <p>Browse our collection of purses and wallets.</p>
+    </section>
+
+    <section class="section">
+        <div class="filters">
+            <select id="category-filter" aria-label="Filter by category">
+                <option value="all">All Categories</option>
+                <option value="purse">Purses & Bags</option>
+                <option value="wallet">Wallets</option>
+            </select>
+
+            <select id="brand-filter" aria-label="Filter by brand">
+                <option value="all">All Brands</option>
+                <option value="Louis Vuitton">Louis Vuitton</option>
+                <option value="Coach">Coach</option>
+                <option value="Michael Kors">Michael Kors</option>
+                <option value="Everyday Edit">Everyday Edit</option>
+            </select>
+
+            <input type="search" id="product-search"
+                   placeholder="Search products..."
+                   aria-label="Search products">
+        </div>
+
+        <p id="product-count" class="muted"></p>
+        <div id="all-products" class="product-grid"></div>
+
+        <p class="demo-note">
+            This is a student demonstration catalog.
+            Product information and prices are examples.
+        </p>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <small>© <span class="current-year"></span> NEXTAG</small>
+    <p>Usama</p>
+</footer>
+
+</body>
+</html>

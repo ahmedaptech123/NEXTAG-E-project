@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Products | NEXTAG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="brands.html">Brands</a>
+        <a class="active" href="compare.html">Compare</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-heading">
+        <p class="eyebrow">CHOOSE YOUR FAVORITES</p>
+        <h1>Compare <em>Products.</em></h1>
+        <p>Review prices, categories, colors, and materials side by side.</p>
+    </section>
+
+    <section class="section">
+        <div class="compare-toolbar">
+            <label for="compare-select">Select a product</label>
+            <select id="compare-select"></select>
+            <button id="add-compare" class="btn" type="button">
+                Add to Compare +
+            </button>
+            <button id="clear-compare" class="btn btn-outline" type="button">
+                Clear List
+            </button>
+        </div>
+
+        <p id="compare-message" class="form-message"></p>
+        <div id="compare-results" class="compare-grid"></div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html" class="logo">NEXTAG<span>.</span></a>
+    <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <small>© <span class="current-year"></span> NEXTAG</small>
+    <p>Mahad</p>
+</footer>
+
+</body>
+</html>
