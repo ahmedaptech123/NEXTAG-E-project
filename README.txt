@@ -1,7 +1,7 @@
 NEXTAG STUDENT WEBSITE
 ======================
 
-START HERE
+START HERE.
 1. Extract this ZIP file.
 2. Open the NEXTAG folder.
 3. Double-click index.html to open the website in your browser.
